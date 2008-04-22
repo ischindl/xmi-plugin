@@ -1,0 +1,20 @@
+ ------
+ Usage
+ ------
+ Jan Van Besien
+ ------
+ 14 Aug 2007
+ ------
+
+Usage
+
+* Generating an XMI model of the maven dependencies
+
+  Simple run the xmi goal on your maven project:
+
++-----
+mvn xmi:xmi
++-----
+
+  In the target directory of your project, you will find a file named after your projects artifactId and version,
+  with the extension ".xmi".

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<faqs id="FAQ" title="Frequently Asked Questions">
+    <part id="General">
+        <faq id="org.codehaus.mojo.xmi-plugin">
+            <question>Can I generate fancy UML diagrams with this plugin?</question>
+            <answer>
+                <p>No, this plugin generates an XMI model. This is an XML file that can be opened by UML modelling tools
+                    to (for example) generate fancy diagrams.
+                </p>
+            </answer>
+        </faq>
+    </part>
+</faqs>

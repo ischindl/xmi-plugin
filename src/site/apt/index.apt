@@ -1,0 +1,27 @@
+ ------
+ Introduction
+ ------
+ Jan Van Besien
+ ------
+ 14 Aug 2007
+ ------
+
+Xmi Maven Plugin
+
+  The Xmi Maven Plugin generates an XMI model of the dependencies between maven projects. Every maven project is
+  rendered as an uml package, modules are rendered as inner packages.
+
+  The generated XMI model can be opened in an UML modelling tool that can read XMI documents. From there you can for
+  example generate nice dependency diagrams. 
+
+* Goals Overview
+
+  * {{{dependencies.html}xmi:xmi}} is used to generate an XMI model of the dependencies.
+
+* Usage
+
+  Instructions on how to use the Xmi Maven Plugin can be found {{{usage.html}here}}.
+
+* Examples
+
+  TODO: add examples
